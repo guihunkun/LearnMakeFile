@@ -30,9 +30,9 @@ INC_FLAGS := $(addprefix -I,$(INC_DIRS))
 # These files will have .d instead of .o as the output.
 CPPFLAGS := $(INC_FLAGS) -MMD -MP
 
-#SHAREHOME = /pd03/builder/empyrean_dm6/share/local
-#LDFLAGS = -L${SHAREHOME}/linux26-x86_64/lib -lnglib
-#LDFLAGS = -std=c++17 -O3 -I${SHAREHOME}/linux26-x86_64/include/netgen
+#SHAREHOME = /User/share/local
+#LDFLAGS = -L${SHAREHOME}/guihun/lib -lnglib
+#LDFLAGS = -std=c++17 -O3 -I${SHAREHOME}/guihun/include/netgen
 
 SHAREHOME = /Users/quxiaokun/guihun/computer/c++/learn_makefile 
 LDFLAGS = -std=c++17 -O3 -I./include
